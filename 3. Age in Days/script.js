@@ -6,7 +6,7 @@ const personData = {
 
 function ageInDays(perObj, callback) {
     let fullname = `${perObj.firstName} ${perObj.lastName}`
-    let ageInDays = parseInt(perObj.age * 365)
+    let ageInDays = parseInt(perObj.Age * 365)
     callback(fullname, ageInDays)
 }
 
